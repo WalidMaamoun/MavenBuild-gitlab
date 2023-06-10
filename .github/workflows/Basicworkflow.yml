@@ -1,8 +1,0 @@
-name: GitHub Action Demo
-run-name: testing out github actions
-on:[push]
-jobs:
- Basic-workflow:
-	runs-on: ubuntu-latest
-	steps:
-	-run: echo " Job is executing as part of Basic workflow"
